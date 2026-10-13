@@ -1,7 +1,7 @@
 CC=cc
 CFLAGS=-Wall
 LDFLAGS=
-SRCS=main.c lexer.c s.c
+SRCS=main.c lexer.c s.c parser.c
 TARGET=pratt
 
 $(TARGET): $(SRCS)

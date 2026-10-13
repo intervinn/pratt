@@ -9,7 +9,7 @@ void s_fmt(s_t s, FILE *f) {
             fputc('(', f);
             fputc(s.data.cons.op, f);
 
-            if (s.data.cons.len == 1) {
+            if (s.data.cons.len == 0) {
                 fputc(')', f);
                 return;
             }
